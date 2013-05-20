@@ -16,13 +16,13 @@ Este script é feito em Ruby. Instale as gems necessárias para executá-lo:
 
 Os arquivos do origem podem ser acessados neste [link](ftp://ftp.ibge.gov.br/Censos/Censo_Demografico_2010/Resultados_do_Universo/Agregados_por_Setores_Censitarios/).
 
-Eles estão separados por unidade federativa, sendo que São Paulo está também dividido entre Capital e demais cidades. 
+Eles estão separados por unidade federativa, sendo que São Paulo está também dividido entre capital e demais cidades. 
 
 Baixe e descompacte os arquivos a serem interpretados para a pasta que você criou no seu computador.
 
 ## Executando o script
 
-Assegure-se que o conteúdo dos arquivos descompactados estarão em um diretório com o nome do arquivo.
+Assegure-se de que o conteúdo dos arquivos descompactados estarão em um diretório com o nome do arquivo.
 
 Rode:
 
