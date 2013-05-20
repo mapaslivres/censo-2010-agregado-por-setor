@@ -2,7 +2,7 @@
 
 O IBGE disponibiliza em seu FTP diversos arquivos sobre o Censo 2010, entre eles o resultado do universo agregado por setores censitários. Os formatos disponíveis são Excel (.xls) e Valores Separados por Vírgula (.csv).
 
-Os arquivos .csv disponíveis no FTP estão com um erro de identificação de setores que os torna inutilizáveis. O script disponível neste repositório converte os arquivos Excel para CSV, resolvendo este problema. Adicionalmente, o script gera também arquivos .csvt, que identifica os tipos de cada campo, evitando que um programa confunda um tipo inteiro com um real, por exemplo.
+Os arquivos .csv disponíveis no FTP estão com um erro de identificação de setores que os torna inutilizáveis. O script disponível neste repositório converte os arquivos Excel para CSV, resolvendo este problema. Adicionalmente, o script gera arquivos .csvt, que identifica os tipos de cada campo, evitando que um programa confunda um tipo inteiro com um real, por exemplo. Veja este [tutorial](http://qgis.spatialthoughts.com/2012/03/using-tabular-data-in-qgis.html) para saber como utilizar este tipo de arquivo no Quantum GIS. 
 
 ## Preparando a execução do script
 
