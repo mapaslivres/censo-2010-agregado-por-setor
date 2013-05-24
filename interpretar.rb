@@ -4,9 +4,6 @@ require 'fileutils'
 require 'csv'
 require 'roo'
 
-# Para renomear as extensões
-# for file in `ls *.XLS`; do mv $file `basename $file .XLS`.xls; done 
-
 def read_column_types(filename)
   csv_text = File.read(filename)
   csv = CSV.parse(csv_text, :headers => false)
@@ -20,7 +17,7 @@ def typecast(value, type)
     case type
       when 'Integer' then value.to_i
       when 'Real' then value.class.name == 'Float' ? value : value.sub(',','.').to_f
-      when 'String' then value.to_s
+      when 'String' then value
       else raise 'Tipo não encontrado: ' + type
     end
   end
